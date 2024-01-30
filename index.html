@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CuentasClaras</title>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="icon" href="icon1.png">
+</head>
+<body>
+    <main class="container">
+        <h3>CuentasClaras</h3>
+        <div class="busqueda">
+            <h5>Agrega todos los gastos!</h5>
+            <input type="text" placeholder="Introduce el nombre" id="inputNombre">
+            <input type="number" placeholder="Introduce el gasto" id="inputGasto">
+            <button id="agregar">Sumar Gasto</button>
+            <button id="calcular">Calcular</button>
+            <button id="limpiar">Realizar otro calculo</button>
+        </div>
+        <div>
+            <ul id="resultado">
+            
+            </ul>
+        </div>
+    </main>
+    <script type="module" src="cuentasClaras.js"></script>
+</body>
+</html>
